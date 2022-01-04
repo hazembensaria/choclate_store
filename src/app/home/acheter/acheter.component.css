@@ -1,0 +1,16 @@
+.father{
+    margin: 1rem;
+    display: flex;
+  background-image: url("../../../assets/bg1.jpg");
+  height: 89.5vh;
+  background-repeat: no-repeat;
+  background-size:100%;
+  overflow: hidden;
+  gap: 10px;
+}
+.son{
+    width: 20rem;
+    height: 10rem;
+    color: black;
+    
+}

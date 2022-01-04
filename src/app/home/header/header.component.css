@@ -1,0 +1,35 @@
+.son{
+
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    
+    width: 100%;
+    margin: 0;
+    color: white;
+    font-size: large;
+    align-items: center;
+}
+.son div{
+    display: flex;
+    justify-content: center;
+    width:5rem;
+    border-radius: 5px;
+}
+.son div:hover{
+    background:beige;
+    color: black;
+    cursor: pointer;
+}
+.son{
+    width: 50%;
+}
+.father{
+    width: 100%;
+    background: rgb(48, 48, 48);
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}

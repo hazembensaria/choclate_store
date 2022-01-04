@@ -1,0 +1,32 @@
+ <app-header></app-header>
+<!--<div class="father">
+<div *ngFor="let choc of chocolats" class="son">
+
+
+
+
+
+</div>
+</div> -->
+<div class="father">
+<div style="text-decoration: none;" *ngFor="let choc of chocolats">
+    <div class="card text-white bg-dark mb-3"  style="margin: 20px;width: 20rem; ">
+        <div class="card-header header" style="background: rgb(73, 73, 73);">
+          <div>
+            {{choc.ref}}
+            {{choc.gout}}</div>
+        </div>
+        <div class="card-body son" style="background :white;"> 
+            <img src={{choc.imageUrl}} style="max-width: 100px; border-radius: 50%; display:inline ;" class="pull-right">
+          <div class="pson">
+           <p> {{choc.promotion}}</p>
+           <p> {{choc.prix}}</p>
+        </div>
+        </div>
+        <div class="button" (click)="onclick(choc)">add</div>
+    </div>
+    
+  </div>
+</div>
+
+
